@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-right: auto;
+  margin-left: auto;
+  width: 200px;
+  height: 85px;
+  font-size: 50px;
+  text-align: center;
+
+  border: 7px solid black;
+}
+
+.menu {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+  width: 300px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #e2dfdfe4;
+  border-radius: 10px;
+
+}
+
+.menu_word {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  font-family: "Helvetica";
+  color: #58595B;
+  text-decoration: none;
+
+  line-height: 50px;
+}
+
+/*
+.line {
+  display: inline-block;
+  border: 1px solid blue;
+}
+*/
+
+.pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}

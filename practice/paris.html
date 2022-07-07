@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Travel</title>
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <input type="button" value="night"
+    onclick="document.querySelector('body').style.backgroundColor='black'; document.querySelector('body').style.color='white'; document.querySelector('h1').style.borderColor = 'white';">
+  <input type="button" value="day"
+    onclick="document.querySelector('body').style.backgroundColor='white'; document.querySelector('body').style.color='black'; document.querySelector('h1').style.borderColor = 'black';"><br>
+  <h1>Travel</h1>
+
+  <div class="menu">
+    <a href="index.html" class="menu_word">Home</a>
+    <a href="seoul.html" class="menu_word">Seoul</a>
+    <a href="tokyo.html" class="menu_word">Tokyo</a>
+    <a href="paris.html" class="menu_word"><b>PARIS</b></a>
+  </div>
+
+  <img src="images/paris.png" class="pic" onclick="alert('Paris')">
+</body>
+
+</html>
