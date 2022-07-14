@@ -1,7 +1,3 @@
-// var Links = {
-
-// }
-
 var Body = {
   setColor : function(color) {
     $('body').css('color', color);
