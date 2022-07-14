@@ -4,14 +4,15 @@
 <head>
   <meta charset="UTF-8">
   <title>Travel</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="color.js"></script>
   <link href="styles.css" rel="stylesheet">
 </head>
 
 <body>
   <input type="button" value="night"
-    onclick="document.querySelector('body').style.backgroundColor='black'; document.querySelector('body').style.color='white'; document.querySelector('h1').style.borderColor = 'white';">
-  <input type="button" value="day"
-    onclick="document.querySelector('body').style.backgroundColor='white'; document.querySelector('body').style.color='black'; document.querySelector('h1').style.borderColor = 'black';"><br>
+    onclick="nightDayHandler(this)">
+  
   <h1>Travel</h1>
 
   <div class="menu">
