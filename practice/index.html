@@ -5,7 +5,6 @@
   <title>Travel</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="color.js"></script>
-  <script src="weather.js"></script>
   <link href="styles.css" rel="stylesheet">
 </head>
 <body>
@@ -17,12 +16,31 @@
   <div class="menu">
     <a href="index.html" class="menu_word line"><b>HOME</b></a>
     <a href="seoul.html" class="menu_word line">Seoul</a>
-    <a href="tokyo.html" class="menu_word line">Tokyo</a>
+    <a href="australia.html" class="menu_word line">Australia</a>
     <a href="paris.html" class="menu_word line">Paris</a>
   </div>
 
-  <img src="images/home.png" class="pic" onclick="alert('Home')">
+  <div class="album">
+    <div class="images">
+      <img src="images/home.png" class="pic" onclick="alert('Home')">
+      <img src="images/home2.jfif" class="pic">
+      <img src="images/home3.jpg" class="pic">
+      <img src="images/home4.jpg" class="pic">
+    </div>
+  </div>
+  
+  <div class="button">
+    <button class="prev">PREV</button>
+    <button class="next">NEXT</button>
+  </div>
 
+  <div id="weather">
+    <span></span>
+    <span></span>
+  </div>
+
+  <script src="index.js"></script>
+  <script src="weather.js"></script>
 </body>
 </html>
 
